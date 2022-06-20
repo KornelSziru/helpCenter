@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000000;
+  padding: 2rem 14.5rem;
+  font-size: 2.3rem;
+}
+.nav__logo {
+  color: white;
+}
+.nav__logoLeft {
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.nav__logoLeft:hover {
+  color: #ccc;
+}
+.nav__logoRight {
+  padding: 1rem;
+  letter-spacing: 1px;
+  color: white;
+}
+.nav__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav__btn {
+  padding: 1rem 3rem;
+  border-radius: 8px;
+}
+.nav__btn--one {
+  border: 1px solid white;
+  color: white;
+  background-color: #222;
+  text-decoration: none;
+}
+.nav__btn--two {
+  margin-left: 1.4rem;
+  color: white;
+  background-color: #4C5FD5;
+  cursor: pointer;
+  -webkit-transition: color 0.2s, background-color 0.2s;
+  transition: color 0.2s, background-color 0.2s;
+}
+.nav__btn--two:hover {
+  background-color: white;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */
