@@ -44,6 +44,10 @@ html {
   padding: 1rem;
   letter-spacing: 1px;
   color: white;
+  text-decoration: none;
+}
+.nav__logoRight:hover {
+  text-decoration: underline;
 }
 .nav__btns {
   display: -webkit-box;

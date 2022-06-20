@@ -41,6 +41,11 @@ html {
         padding: 1rem;
         letter-spacing: 1px;
         color: white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 
     &__btns {
